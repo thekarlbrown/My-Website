@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/thekarlbrown
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.thekarlbrown.com
+  * I am thekarlbrown (https://keybase.io/thekarlbrown) on keybase.
+  * I have a public key with fingerprint 9300 F11F 830D 583F 12BA  BEA0 FB07 0DDF 0994 0597
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9300f11f830d583f12babea0fb070ddf09940597",
+            "host": "keybase.io",
+            "key_id": "fb070ddf09940597",
+            "kid": "010168ec4b8ed6fc4b18731500893a799e244a59b75a9b3a5ef0c00c93adad092af10a",
+            "uid": "cd98b997d7a8074c8b2adde553572000",
+            "username": "thekarlbrown"
+        },
+        "service": {
+            "hostname": "www.thekarlbrown.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423029729,
+    "expire_in": 157680000,
+    "prev": "7f0ce4764a1aeafa2dc72cee18eec70d63139e9cd1ee6cc9f00339e53a4eef89",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIhAnicbZJrSBRRFIBX7UFWUhn+EMsayiJE7rx25m4UpERR2YOUyJLlztwzOq3u
+rLPjmqhEEBb+qJAesFHaj4KsqEiXKEgT80EPsQwMI8lEgkSJStCwuiMF/ejX5Z7z
+ne+ec7gdixM8iXF7PeMxGr/2aNyzJ7vKPXl9LR+qOM2ilZyvigvA7GGYwSKwQ7YZ
+dDgfh0WEDJ43VBFRWRUNXtCIBgQZGlIQpQbCWEIyVrhMrtgKuxVMo5EwZJkWi7GL
+36Qs+h8+MJtAPOK9KuiSpgL1GuzkVUXkZYRULBIFYxAkichYU2SCNZHIYCAdIZ0l
+KaEIC8TgEWG68lmdTrGqYaxQhahIkXRVEwilIMuirAgIIRcMgx0kpcBopxgCxC7R
+bKsiyNVkciwTMXVw1+BO84eqqKjI+pfM0q1S5gnZlmPpVgkjih0n5HMFTmVotgI0
+/x+XXzODlK2UFUTADptWkPPxjNQd05XzkiAiASsCzuTgaMi0wW+6hKx4VdYucp+B
+CFMqbGyQFK9EeALEIALVFUEH4FUAna3WK/IiBqxTHsCr69hASGQBWSQSgKFizp2u
+LGhxPom1SYqYMmwWBYlTbgNX0952eI4nLtEzb268+yk8iQuW/P0q1+/On0nd9GDg
+cvzM9KfITLS3duvybeezOwTv0tDHpHbhTrpU6XH64ltj7QunihoKAvdSjZIX9ZP+
+rt6u/T0191aMrgk//1KQH+1PgJsrk6u5DVtuf95+Y9VETkLt6txhrfPc2PuWoYkD
+zW+jYoqWlDZ/0bot/eN7Wprrj6U3nN63uzAnI/dV3SB3Im2Zf7Q5L1o1fulaf6Mz
+UN2du7k+YSi3ta5r5Gc3ZHve3K8+gNqaBxtelg0PJudtzO/cF/1Ve3bnza8Pb8Xo
+8QwYU781SSXzmqZTBp/2TH4vvHJkyaGTO16/u7DsWKQ4o/pqPs4+Vfojp+1g4FFs
+6c/GjY1n1heMNDy+OHXoN6JKM70=
+=AOUS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thekarlbrown
+
+==================================================================
