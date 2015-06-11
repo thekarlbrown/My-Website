@@ -28,7 +28,18 @@
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
+<!-- Javascript code to highlight my Links in the aside -->
+<script>
+function highlightAside(targetAside){
+ document.getElementById(targetAside).style.backgroundColor='#35D635';
+}
+function restoreAside(targetAside){
+document.getElementById(targetAside).style.backgroundColor='#FFFFFF';
+}
+</script>
+
 <body class="about">
+
   <div id="page">
     <div id="container">
 
@@ -90,11 +101,12 @@
 	<h1 title="Karl Brown">Karl Brown</h1>
         <img class="portrait" src="images/metaface.jpg" alt="Photo of Karl">
         <aside id="contact">
+		
           <ul>
 		  
-            <li class="email" ><a href="mailto:karl@thekarlbrown.com">karl@thekarlbrown.com</a></li>
-            <li class="key"><a href="https://keybase.io/thekarlbrown">Keybase - Bitcoin and GPG</a></li>
-			<li class="resume"><a href="Resume.pdf">My Resume</a></li>
+            <li class="email" id="email" onmouseover="highlightAside('email')" onmouseout="restoreAside('email')"><a href="mailto:karl@thekarlbrown.com">karl@thekarlbrown.com</a></li>
+            <li class="key" id="key" onmouseover="highlightAside('key')" onmouseout="restoreAside('key')"><a href="https://keybase.io/thekarlbrown">Keybase - Bitcoin and GPG</a></li>
+			<li class="resume" id="resume" onmouseover="highlightAside('resume')" onmouseout="restoreAside('resume')"><a href="Resume.pdf">My Resume</a></li>
           </ul>
         </aside>
       </aside>

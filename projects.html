@@ -28,6 +28,16 @@
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
+<!-- Javascript code to highlight my Links in the aside -->
+<script>
+function highlightAside(targetAside){
+ document.getElementById(targetAside).style.backgroundColor='#35D635';
+}
+function restoreAside(targetAside){
+document.getElementById(targetAside).style.backgroundColor='#FFFFFF';
+}
+</script>
+
 <body class="projects">
   <div id="page">
     <div id="container">
@@ -82,8 +92,7 @@
 	<p>I am currently the Captain of the Counter-Strike: Global Offensive team at Christopher Newport University. This is the second eSports team I have had the pleasure of managing at CNU. We practice, improve each others play, and play against other Colleges. If you are at a beginner to intermediate CS:GO skill level and want to improve, my analysis and exersizes on our announcement page are a good place to start!</P>
 </article>
 
-        
-
+       
      
 
       </section>
@@ -94,9 +103,9 @@
         <aside id="contact">
           <ul>
 		  
-            <li class="email" ><a href="mailto:karl@thekarlbrown.com">karl@thekarlbrown.com</a></li>
-            <li class="key"><a href="https://keybase.io/thekarlbrown">Keybase - Bitcoin and GPG</a></li>
-	   <li class="resume"><a href="Resume.pdf">My Resume</a></li>
+            <li class="email" id="email" onmouseover="highlightAside('email')" onmouseout="restoreAside('email')"><a href="mailto:karl@thekarlbrown.com">karl@thekarlbrown.com</a></li>
+            <li class="key" id="key" onmouseover="highlightAside('key')" onmouseout="restoreAside('key')"><a href="https://keybase.io/thekarlbrown">Keybase - Bitcoin and GPG</a></li>
+			<li class="resume" id="resume" onmouseover="highlightAside('resume')" onmouseout="restoreAside('resume')"><a href="Resume.pdf">My Resume</a></li>
           </ul>
         </aside>
       </aside>
