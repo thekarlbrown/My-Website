@@ -73,12 +73,12 @@ header {
 
 /*Navigation */
 header #offset {
-    width: 868px;
+    width: 618px;
     margin: 0 auto 41px auto;
 }
 
 header #links { 
-  width: 651px;
+  width: 335px;
   height: 36px;
   font-size:20px;
   margin-left: 70px;
@@ -101,10 +101,8 @@ header #links a {
 #links a.hover,
 /* Highlight Link */
 body.about    #links .about    a,
-body.quotes #links .quotes a,
 body.projects  #links .projects  a,
-body.blog     #links .blog     a,
-body.elsewhere    #links .elsewhere    a {
+body.blog     #links .blog     a {
   color: #fff; 
   text-shadow: 0 0 3px #1b1b1b;
 }
@@ -124,19 +122,13 @@ body.elsewhere    #links .elsewhere    a {
 
 
 #links .about, 
-#links .quotes ,
-#links .elsewhere, 
 #links .blog,
 #links .projects{ float: left; }
 
-
-#links .quotes { background-position: 0px 0px; }
 #links .projects { background-position: right 5px; }
 #links .about    { padding: 0 17px 0 17px; }
-#links .quotes { padding-left: 26px; }
 #links .blog   { padding: 0 17px 0 30px; }
 #links .projects { padding: 0 17px 0  }
-#links .elsewhere { padding-right: 0px; } 
 
 
 /* Move for current page*/
@@ -148,11 +140,9 @@ header .current {
 }
 
 /* Move star based on page */
-body.about    header .current { left: 210px;  display: block; }
-body.quotes  header .current { left: 327px; display: block; }
-body.blog     header .current { left: 423px; display: block;}
-body.projects header .current { left: 533px; display: block;}
-body.elsewhere    header .current { left: 700px; display: block; }
+body.about    header .current { left: 335px;  display: block; }
+body.blog     header .current { left: 445px; display: block;}
+body.projects header .current { left: 550px; display: block;}
 
 .portrait { 
   padding: 0px; 
@@ -274,6 +264,9 @@ body.elsewhere    header .current { left: 700px; display: block; }
 #contact .email  a { background-image: url(../images/email.png); background-position: 0 0; }
 #contact .key    a { background-image: url(../images/key.png); background-position: 0 0; }
 #contact .resume a { background-image: url(../images/resume.jpg); background-positon: 0,0; }
+#contact .github    a { background-image: url(../images/github.png); background-position: 0 0; }
+#contact .linkedin a { background-image: url(../images/linkedin.png); background-positon: 0,0; }
+
 
 
 /* About*/
@@ -287,17 +280,13 @@ body.elsewhere    header .current { left: 700px; display: block; }
   margin-right: 15px;
 }
 
+/* Projects Tab */
 
-/* Projects and Quotes Tab*/
-
-body.quotes-subpage .main,
 body.software-subpage .main {
   font-family: 'Nobile', serif;
   font-size: 100%;
   line-height: 1.5em;
 }
-
-/* Projects Tab */
 
 .main .links {
   position: absolute;
@@ -332,37 +321,6 @@ body.software-subpage .main {
   text-decoration: none;
 }
 .main .links td a:hover { color: #666; }
-
-
-/* Quotes Tab*/
-
-body.quotes-subpage .main article {
-  padding-top: 18px;
-}
-
-body.quote-subpage .main p:first-child:first-letter { 
-  float: left; 
-  font-weight: bold;
-
-  padding-top: 6px; 
-  padding-right: 8px; 
-
-  font-size: 70px;
-  line-height: 50px;
-  padding-right: 10px;
-}
-
-.code {
-  font-family: monospace;
-  white-space: pre;
-  display: block;
-}
-
-.highlight pre {
-  white-space: pre; 
-  overflow-x: scroll;
-  word-wrap: normal;
-}
 
 
 /* GitHub Style */
